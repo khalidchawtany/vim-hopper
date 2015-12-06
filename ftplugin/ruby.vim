@@ -1,4 +1,4 @@
-function! b:load_hopper_by_filetype()
+function! Load_hopper_by_filetype()
   let file_name = expand('%')
   if file_name =~ 'spec.rb$'
     let b:hopper_pattern = '(describe|context|it|xit) '
